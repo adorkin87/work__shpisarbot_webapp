@@ -1,0 +1,30 @@
+.title {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.title p {
+    font-size: var(--title_font-size);
+}
+
+.secondLine {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.title button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+}
+
+.title button svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: var(--tg-theme-button-color);
+}

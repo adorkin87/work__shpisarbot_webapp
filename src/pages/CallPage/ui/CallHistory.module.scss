@@ -1,0 +1,21 @@
+.history {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.history__btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.history__btn svg {
+    fill: var(--tg-theme-button-color);
+}
+
+.history__list {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--tg-theme-secondary-bg-color);
+}

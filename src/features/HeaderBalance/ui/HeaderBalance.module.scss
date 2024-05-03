@@ -1,0 +1,23 @@
+.headerBalance {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.headerBalance > p:first-child {
+    font-weight: 600;
+}
+
+.headerBalance a,
+.headerBalance a:visited {
+    color: var(--tg-theme-button-color);
+}
+
+.emptyBalance a,
+.emptyBalance a:visited {
+    color: var(--tg-theme-destructive-text-color);
+}
+
+.balanceError {
+    fill: var(--tg-theme-destructive-text-color);
+}

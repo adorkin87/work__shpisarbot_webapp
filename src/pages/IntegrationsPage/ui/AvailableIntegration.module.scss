@@ -1,0 +1,60 @@
+.integration {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--tg-theme-secondary-bg-color);
+    transition: height var(--delay-animation);
+}
+
+.integrationTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.integrationTitle > p {
+    font-weight: 600;
+}
+
+.btnIntegration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: var(--tg-theme-bg-color);
+}
+
+.btnIntegration svg {
+    fill: var(--tg-theme-text-color);
+}
+
+.btnIntegration_onExpand {
+    transform: rotate(180deg);
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.fields input {
+    padding: 0 1rem;
+    width: 100%;
+    height: 3.5rem;
+    outline: none;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    color: var(--tg-theme-text-color);
+    background-color: var(--tg-theme-bg-color);
+    transition: border var(--delay-animation);
+}
+
+.fields input:focus {
+    border: 1px solid var(--tg-theme-button-color);
+}

@@ -1,0 +1,30 @@
+.btnSearch {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.btnSearch button {
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.btnSearch svg {
+    fill: var(--tg-theme-button-color);
+}
+
+.btnSearch input {
+    height: 2rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--tg-theme-button-color);
+    outline: none;
+    transition: var(--delay-animation);
+}
+
+.disable {
+    display: none;
+}

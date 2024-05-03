@@ -1,0 +1,55 @@
+.appCheckbox {
+    height: 1.25rem;
+    width: 1.25rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.appCheckbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.appCheckbox .checkbox__checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.25rem;
+    width: 1.25rem;
+    border-radius: 0.25rem;
+    border: 0.1rem solid var(--tg-theme-button-color);
+    background-color: var(--tg-theme-secondary-bg-color);
+    transition: background-color var(--delay-animation) ease;
+}
+
+.appCheckbox .checkbox__checkmark:after {
+    content: '';
+    position: absolute;
+    left: 0.4rem;
+    top: 0.1rem;
+    width: 0.33rem;
+    height: 0.75rem;
+    opacity: 0;
+    border: solid var(--tg-theme-button-text-color);
+    border-width: 0 0.15rem 0.15rem 0;
+    transform: rotate(45deg);
+    transition: opacity var(--delay-animation) ease;
+}
+
+.appCheckbox input:checked ~ .checkbox__checkmark {
+    background-color: var(--tg-theme-button-color);
+}
+
+.appCheckbox input:checked ~ .checkbox__checkmark:after {
+    opacity: 1;
+}
+
+//.appCheckbox:hover input ~ .checkbox__checkmark {
+//    background-color: #eee;
+//}
+//.appCheckbox:hover input:checked ~ .checkbox__checkmark {
+//    background-color: #f7cb15;
+//}

@@ -1,0 +1,12 @@
+.btnInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.btnInfo svg {
+    fill: var(--tg-theme-button-color);
+}

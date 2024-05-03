@@ -1,0 +1,13 @@
+.btnExpand {
+    border: none;
+    background: none;
+    transition: rotate var(--delay-animation);
+}
+
+.btnExpand_show {
+    transform: rotate(180deg);
+}
+
+.btnExpand svg {
+    fill: var(--tg-theme-button-color);
+}

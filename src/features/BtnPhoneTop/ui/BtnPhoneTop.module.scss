@@ -1,0 +1,13 @@
+.phoneTop {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--tg-theme-secondary-bg-color);
+}
+
+.phoneTop svg {
+    fill: var(--tg-theme-button-color);
+}

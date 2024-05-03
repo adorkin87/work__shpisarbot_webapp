@@ -1,0 +1,23 @@
+.title {
+    padding: 0 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.title p {
+    font-size: 1.5rem;
+}
+
+.title button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+}
+
+.title button svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: var(--tg-theme-button-color);
+}

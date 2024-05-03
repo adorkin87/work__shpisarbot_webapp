@@ -1,0 +1,12 @@
+.blockingTypes {
+    padding: 0 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 1.5rem;
+}
+
+.blockingTypes > p {
+    font-weight: 600;
+}

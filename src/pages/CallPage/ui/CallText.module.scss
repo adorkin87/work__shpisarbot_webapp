@@ -1,0 +1,24 @@
+.recordText {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.recordText__btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.recordText__btn svg {
+    fill: var(--tg-theme-button-color);
+}
+
+.recordText__text {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--tg-theme-secondary-bg-color);
+}

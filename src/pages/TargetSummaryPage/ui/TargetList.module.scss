@@ -1,0 +1,16 @@
+.targetList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.target {
+    padding: 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.target > p {
+    font-weight: 600;
+}

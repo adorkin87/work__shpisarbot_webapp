@@ -1,0 +1,23 @@
+.paymentPage {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.paymentPage > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.promo {
+    padding: 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promo > p {
+    font-weight: 600;
+}

@@ -1,0 +1,18 @@
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.offer > div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.8rem;
+}
+
+.offer a,
+.offer a:visited {
+    color: var(--tg-theme-button-color);
+}

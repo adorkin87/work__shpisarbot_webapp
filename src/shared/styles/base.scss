@@ -1,0 +1,10 @@
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    color: var(--tg-theme-text-color);
+    background-color: var(--tg-theme-bg-color);
+}

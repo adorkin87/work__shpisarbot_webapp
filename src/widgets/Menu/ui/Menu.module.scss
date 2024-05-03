@@ -1,0 +1,30 @@
+.menu {
+    position: absolute;
+    display: none;
+    height: 100vh;
+    width: 100%;
+    top: 4rem;
+    padding: 2.5rem;
+    grid-template-columns: max-content;
+    grid-template-rows: max-content;
+    align-content: start;
+    align-self: start;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--tg-theme-secondary-bg-color);
+    z-index: 10;
+}
+
+.menu_active {
+    display: grid;
+}
+
+.menu button {
+    height: 3rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: var(--tg-theme-button-text-color);
+    cursor: pointer;
+    background-color: var(--tg-theme-button-color);
+}

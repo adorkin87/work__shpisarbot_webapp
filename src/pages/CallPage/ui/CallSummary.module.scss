@@ -1,0 +1,28 @@
+.summary {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.summary__btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.summary__btn svg {
+    fill: var(--tg-theme-button-color);
+}
+
+.summary__text {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--tg-theme-secondary-bg-color);
+}
+
+.summary span {
+    font-weight: 600;
+}

@@ -1,0 +1,16 @@
+.callGeneral {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.callGeneral > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.callGeneral a,
+.callGeneral a:visited {
+    color: var(--tg-theme-button-color);
+}

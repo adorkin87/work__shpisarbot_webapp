@@ -1,0 +1,12 @@
+.page {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--tg-theme-secondary-bg-color);
+}

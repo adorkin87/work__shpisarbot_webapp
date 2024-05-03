@@ -1,0 +1,70 @@
+$delay: 0.6s;
+$size_dot: 0.5rem;
+$margin_dot: 1rem;
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.loading {
+    margin: 1rem 0;
+    width: calc($size_dot * 3 + $margin_dot * 2);
+    position: relative;
+}
+
+.loading div {
+    position: absolute;
+    width: $size_dot;
+    height: $size_dot;
+    border-radius: 50%;
+    background-color: var(--tg-theme-button-color);
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.loading div:nth-child(1) {
+    left: 0;
+    animation: lds-ellipsis1 $delay infinite;
+}
+
+.loading div:nth-child(2) {
+    left: 0;
+    animation: lds-ellipsis2 $delay infinite;
+}
+
+.loading div:nth-child(3) {
+    left: calc($size_dot + $margin_dot);
+    animation: lds-ellipsis2 $delay infinite;
+}
+
+.loading div:nth-child(4) {
+    left: calc($size_dot * 2 + $margin_dot * 2);
+    animation: lds-ellipsis3 $delay infinite;
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(calc($size_dot + $margin_dot), 0);
+    }
+}

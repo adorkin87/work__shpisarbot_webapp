@@ -1,0 +1,17 @@
+.availableIntegrations {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.title {
+    padding: 0 0.5rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.availableIntegrations > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

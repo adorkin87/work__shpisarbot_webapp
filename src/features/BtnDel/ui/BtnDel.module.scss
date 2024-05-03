@@ -1,0 +1,12 @@
+.btnDel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.btnDel > svg {
+    fill: var(--tg-theme-destructive-text-color);
+}

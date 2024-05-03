@@ -1,0 +1,46 @@
+/* The switch - the box around the slider */
+.appSwitch {
+    position: relative;
+    width: 3em;
+    height: 1.5em;
+}
+
+/* Hide default HTML checkbox */
+.appSwitch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--tg-theme-secondary-bg-color);
+    transition: var(--delay-animation);
+    border-radius: 1.25em;
+}
+
+.slider:before {
+    position: absolute;
+    content: '';
+    height: 1.1em;
+    width: 1.1em;
+    border-radius: 50%;
+    left: 0.2em;
+    bottom: 0.2em;
+    background-color: rgb(255, 255, 255);
+    transition: var(--delay-animation);
+}
+
+.appSwitch input:checked + .slider {
+    background-color: var(--tg-theme-button-color);
+}
+
+.appSwitch input:checked + .slider:before {
+    transform: translateX(1.5em);
+}
